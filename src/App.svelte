@@ -26,10 +26,6 @@
 	</div>
 </Router>
 <p>
--logo smaller or mobiles
--background: verde, azul, vinho
-4275
-
 </p>
 
 <style>

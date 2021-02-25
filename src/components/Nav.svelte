@@ -9,7 +9,7 @@
     let mobile = window.matchMedia("(orientation: portrait)").matches ? true : false;
     let active = false;
     function move(node) {
-        node.style.left = position-50 +'px';
+        node.style.left = position-150 +'px';
     }
 </script>
 <svelte:head>
@@ -39,7 +39,7 @@
             </Link>
         {/each}
         {#key position}
-            <div use:move class="arrow" in:fly={{ x:-100, duration: 200, easing: bounceIn, opacity: 1 }}>
+            <div use:move class="arrow" in:fly={{ x:-300, duration: 100, easing: bounceIn, opacity: 1 }}>
                 <div class="bar"></div>
                 <div class="edge"></div>
             </div>

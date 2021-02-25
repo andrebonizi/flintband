@@ -5,11 +5,12 @@
 </script>
 
 <div>
+    <p>Tour Dates</p><hr />
     {#each dates as date}
         <div class="date">
-            <div>{date.city}</div>
-            <div>{date.local}</div>
-            <div>{date.place}</div>
+            <p>{date.city}</p>
+            <p>{date.local}</p>
+            <p>{date.place}</p>
         </div>
     {/each}
 

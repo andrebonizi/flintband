@@ -19,7 +19,7 @@
         left: 0;
         width:  100vw;
         height: 100vh;
-        background-color: rgb(29, 0, 63);
+        background-color: rgb(100, 150, 163);
         opacity: .5;
         z-index: -1;
     }
