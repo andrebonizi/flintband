@@ -39,7 +39,7 @@
         <div class="arrow left"  on:click={moveRight}></div>
         <div class="items" style="transform: translateX({left}px);">
             {#each photos as photo}
-                <img in:fade width={imgWidth} src="{path}{photo}" alt="flint band picture {photo}" />
+                <img width={imgWidth} src="{path}{photo}" alt="flint band picture {photo}" />
             {/each}
         </div>
         <div class="arrow right" on:click={moveLeft}></div>
@@ -64,6 +64,7 @@
         width: var(--imgWidth);
         overflow: hidden;
         display: flex;
+        border-radius: 20px;
     }
     .items{
         display: flex;
