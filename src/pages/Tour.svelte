@@ -1,16 +1,18 @@
 <script>
+    import { fly } from 'svelte/transition';
+
     let dates = [
-        { city: "City",local: "Place", date: "Date"},
+        { type: "RELEASE DATE", city: "Fort. Valley",local: "The Foundry", date: "Friday, 23rd of April, 2021", time: "10pm"},
     ]
 </script>
 
-<div>
-    <p>Tour Dates</p><hr />
+<div in:fly="{{ x: 200, duration: 2000 }}">
+    <p>Dates</p><hr />
     {#each dates as date}
         <div class="date">
-            <p>{date.city}</p>
-            <p>{date.local}</p>
-            <p>{date.place}</p>
+            <b>{date.type}</b><br>
+            <p>{date.date}</p>
+            <p>{date.local} ({date.city}): {date.time}</p>
         </div>
     {/each}
 
@@ -20,5 +22,13 @@
     .date{
         display: flex;
         flex-direction: column;
+    }
+    p{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    b{
+        font-size: 2.5rem;
+        text-decoration: underline;
     }
 </style>
