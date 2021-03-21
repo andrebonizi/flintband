@@ -1,21 +1,21 @@
 <script>
     import { Link } from "svelte-routing";
-    import { fly, slide } from 'svelte/transition';
-    import { bounceIn, bounceInOut } from 'svelte/easing';
+    import { slide } from 'svelte/transition';
+    
     export let links;
-
-    let position = 0;
-
-    let mobile = window.matchMedia("(orientation: portrait)").matches ? true : false;
+    export let mobile;
+    
     let active = false;
-    function move(node) {
-        node.style.left = position-150 +'px';
-    }
+
 </script>
+
 <svelte:head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
 </svelte:head>
+
 {#if mobile}
     <div on:click={()=>{active=!active}} class="menu-btn">MENU</div>
     {#if active}
@@ -32,34 +32,36 @@
 {:else}
     <div class="header">
         {#each links as link, i}
-            <Link to="{link.link}" on:click={(event)=>position = event.detail.screenX}>
+            <Link to="{link.link}">
                 <div class="link">
                     {link.text}
                 </div>
             </Link>
         {/each}
-        {#key position}
-            <div use:move class="arrow" in:fly={{ x:-300, duration: 100, easing: bounceIn, opacity: 1 }}>
-                <div class="bar"></div>
-                <div class="edge"></div>
-            </div>
-        {/key}
     </div>
 {/if}
     
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+    
+    @font-face {
+        font-family: 'Mistral';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Mistral'), url('/fonts/MISTRAL.woff') format('woff');
+    }
 
     .link{
-        font-family: 'Anton', sans-serif;
+        font-family: 'Mistral';
         cursor: pointer;
         color: black;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 2.5rem;
         position: relative;
     }
     .mobile-link{
-        font-family: 'Anton', sans-serif;
+        font-family: 'New Rocker', sans-serif;
         cursor: pointer;
         color: black;
         font-weight: bold;
@@ -85,40 +87,18 @@
         align-items: center;
     }
     .header{
-        width: 100vw;
+        width: 90vw;
         height: 50px;
         box-shadow: 0px 10px 50px black;
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 10px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        font-size: 1.5rem;
         font-weight: bold;
-        text-shadow: 2px 2px 2px grey;
-    }
-    .arrow{
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        margin-top: 130px;
-        transition: 200ms;
-        display: flex;
-        flex-direction: row;
-    }
-    .edge{
-        width: 0; 
-        height: 0; 
-        border-top: 30px solid transparent;
-        border-bottom: 30px solid transparent;
-        border-left: 30px solid black;
-        border-radius: 20px;
-    }
-    .bar{
-        margin-top: 17px;
-        padding: 10px;
-        height: 5px;
-        background-color: black;
+        /* text-shadow: 2px 2px 2px grey; */
     }
 </style>
