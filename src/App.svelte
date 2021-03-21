@@ -7,31 +7,47 @@
 
 	export let url = "";
 	let links = [
-		{ link: "about", text: "About Flint"},
-		{ link: "videos", text: "Videos"},
+		{ link: "about", text: "About Flint."},
 		{ link: "photos", text: "Photos"},
 		{ link: "tour", text: "Tour Dates"},
+		{ link: "history", text: "History"},
 		{ link: "merch", text: "Merch"},
 		{ link: "contact", text: "Contact"},
 	];
 
+	let mobile = window.matchMedia("(orientation: portrait)").matches ? true : false;
 </script>
 
+<div>
 <Background />
 <Router url="{url}">
-	<Navbar links="{links}" />
-	<div class="container">
-		<Logo />
-		<Routes />
-	</div>
+	<Navbar links="{links}" mobile={mobile}/>
+	{#if mobile}
+		<div class="column">
+			<Logo mobile={mobile}/>
+			<Routes mobile={mobile}/>
+		</div>
+	{:else}
+		<div class="row">
+			<Logo mobile={mobile}/>
+			<Routes mobile={mobile}/>
+		</div>
+	{/if}
 </Router>
-<p>
-</p>
 
+</div>
 <style>
-	.container{
+	.row{
 		display: flex;
-		justify-content: flex-start;
+		width: 90vw;
 		flex-direction: row;
+	}
+	.column{
+		display: flex;
+		width: 90vw;
+		flex-direction: column;
+	}
+	div{
+		overflow-x: hidden;
 	}
 </style>
