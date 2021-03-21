@@ -7,14 +7,18 @@
 	import Merch from '../pages/Merch.svelte';
     import Tour from '../pages/Tour.svelte';
     import About from '../pages/About.svelte';
+    import History from '../pages/History.svelte';
+
+    export let mobile;
 </script>
 
 <div>
-    <Route path="about" component="{About}" />
+    <Route path="about" component="{About}" mobile={mobile}/>
     <Route path="videos" component="{Videos}" />
-    <Route path="photos" component="{Photos}" />
+    <Route path="photos" component="{Photos}" mobile={mobile}/>
     <Route path="contact" component="{Contact}" />
     <Route path="merch" component="{Merch}" />
+    <Route path="history" component="{History}" />
     <Route path="tour" component="{Tour}" />
     <Route path="/"><Home /></Route>
 </div>
