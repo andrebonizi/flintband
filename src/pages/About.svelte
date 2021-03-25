@@ -32,10 +32,10 @@
         text-align: center;
     }
     p{
-        font-size: 1.5rem;
         line-height: 1.5rem;
     }
     b{
         text-decoration: underline;
+        font-size: 1.5rem;
     }
 </style>
