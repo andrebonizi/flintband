@@ -17,7 +17,7 @@
     <Route path="videos" component="{Videos}" />
     <Route path="photos" component="{Photos}" mobile={mobile}/>
     <Route path="contact" component="{Contact}" />
-    <Route path="merch" component="{Merch}" />
+    <Route path="merch" component="{Merch}" mobile={mobile}/>
     <Route path="history" component="{History}" />
     <Route path="tour" component="{Tour}" />
     <Route path="/"><Home /></Route>
