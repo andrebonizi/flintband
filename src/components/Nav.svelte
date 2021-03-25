@@ -61,7 +61,7 @@
         position: relative;
     }
     .mobile-link{
-        font-family: 'New Rocker', sans-serif;
+        font-family: 'Mistral';
         cursor: pointer;
         color: black;
         font-weight: bold;
