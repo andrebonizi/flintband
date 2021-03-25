@@ -7,6 +7,7 @@
 
 	export let url = "";
 	let links = [
+		{ link: "/", text: "Home"},
 		{ link: "about", text: "About Flint."},
 		{ link: "photos", text: "Photos"},
 		{ link: "tour", text: "Tour Dates"},
@@ -41,6 +42,7 @@
 		display: flex;
 		width: 90vw;
 		flex-direction: row;
+		justify-content: flex-start;
 	}
 	.column{
 		display: flex;
