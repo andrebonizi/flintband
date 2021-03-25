@@ -35,22 +35,20 @@
 <div in:fly="{{ x: 200, duration: 2000 }}" class="{mobile? "container-mobile" : "container-desk"}">
     <p>PHOTOS</p>
     <hr />
+    <div class="arrow left"  on:click={moveRight}></div>
     <div class="carousel" style="--imgWidth: {imgWidth}px">
-        <div class="arrow left"  on:click={moveRight}></div>
         <div class="items" style="transform: translateX({left}px);">
             {#each photos as photo}
                 <img width={imgWidth} src="{path}{photo}" alt="flint band picture {photo}" />
             {/each}
         </div>
-        <div class="arrow right" on:click={moveLeft}></div>
     </div>
+    <div class="arrow right" on:click={moveLeft}></div>
 </div>
 
 <style>
     .container-desk{
-        height: 100%;
         position: relative;
-        overflow: hidden;
     }
     .container-mobile{
         height: 100%;
@@ -58,7 +56,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
     .carousel{
         width: var(--imgWidth);
@@ -80,7 +77,6 @@
     }
     .left{
         left: 0;
-        margin-left: 10px;
         width: 50px;
         height: 50px;
         border-left: 5px solid white;
@@ -89,7 +85,6 @@
     }
     .right{
         right: 0;
-        margin-right: 10px;
         width: 50px;
         height: 50px;
         border-right: 5px solid white;
@@ -98,7 +93,6 @@
     }
     
     p{
-        line-height: 0px;
         font-size: 1.5rem;
     }
 </style>
