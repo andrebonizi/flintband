@@ -2,7 +2,7 @@
     import { fly } from 'svelte/transition';
 
     let dates = [
-        { type: "RELEASE DATE", city: "Fort. Valley",local: "The Foundry", date: "Friday, 23rd of April, 2021", time: "10pm"},
+        //{ type: "RELEASE DATE", city: "Fort. Valley",local: "The Foundry", date: "Friday, 23rd of April, 2021", time: "10pm"},
     ]
 </script>
 
@@ -15,6 +15,7 @@
             <p>{date.local} ({date.city}): {date.time}</p>
         </div>
     {/each}
+    EP launch in June, 2021. Stay tuned for date and venue.
 
 </div>
 
