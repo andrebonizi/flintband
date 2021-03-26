@@ -7,7 +7,7 @@
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}">
-    <p>Dates</p><hr />
+    <div class="title">Dates</div><hr />
     {#each dates as date}
         <div class="date">
             <b>{date.type}</b><br>
@@ -15,7 +15,10 @@
             <p>{date.local} ({date.city}): {date.time}</p>
         </div>
     {/each}
-    EP launch in June, 2021. Stay tuned for date and venue.
+    <p>
+        EP launch in June, 2021. Stay tuned for date and venue.
+
+    </p>
 
 </div>
 
@@ -26,7 +29,7 @@
     }
     p{
         font-size: 2rem;
-        line-height: 2rem;
+        line-height: 50px;
     }
     b{
         font-size: 2.5rem;
