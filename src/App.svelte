@@ -40,7 +40,7 @@
 <style>
 	.row{
 		display: flex;
-		width: 90vw;
+		width: 95vw;
 		flex-direction: row;
 		justify-content: flex-start;
 	}
