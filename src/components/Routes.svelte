@@ -20,7 +20,7 @@
     <Route path="merch" component="{Merch}" mobile={mobile}/>
     <Route path="history" component="{History}" />
     <Route path="tour" component="{Tour}" />
-    <Route path="/"><Home /></Route>
+    <Route path="/" mobile={mobile} component="{Home}"></Route>
 </div>
 
 <style>
