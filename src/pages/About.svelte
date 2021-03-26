@@ -4,7 +4,7 @@
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}" class="{ mobile ? "mobile": "desk"}">
-    <b>ABOUT</b><br>
+    <div class="title">About</div><hr>
     <p>
         Tony Rosenberg (vocalist / lyricist) and Peter Jenner (songwriter / guitarist) have
         been playing together for almost three years now, and writing as Flint. for almost
@@ -25,14 +25,11 @@
 
 <style>
     .desk{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .mobile{
         font-size: 2rem;    
         text-align: center;
-    }
-    p{
-        line-height: 1.5rem;
     }
     b{
         text-decoration: underline;
