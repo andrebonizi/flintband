@@ -3,9 +3,9 @@
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}">
-    <b>HISTORY</b><hr>
-    <p>
-        Before getting Flint. up and running, the two songwriters, Peter Jenner and Tony
+    <div class="title">History</div><hr>
+    <div class="content">
+        Before getting <div class="flint">Flint.</div> up and running, the two songwriters, Peter Jenner and Tony
         Rosenberg, had played in a covers band in Brisbane, Australia. “Playing the pub
         scene in Brisbane put us together in a great experience for performance,” explains
         Tony. “But as for creating music, it was less than what I was looking for.” Peter was
@@ -17,10 +17,10 @@
         loop.” A good loop. “Drums and bass have really brought the sound together, even
         though we are essentially a guitar rock band.”
         Tony Rosenberg (vocalist / lyricist) and Peter Jenner (songwriter / guitarist) have
-        been playing together for almost three years now, and writing as Flint for almost 2
+        been playing together for almost three years now, and writing as <div class="flint">Flint.</div> for almost 2
         years.
         <br>
-        John Doyle (bass) and Brian Foulds (drums) joined Flint. in late 2020 and the fruit
+        John Doyle (bass) and Brian Foulds (drums) joined <div class="flint">Flint.</div> in late 2020 and the fruit
         of their efforts is the band’s debut EP, a five-song compilation with a rock sound
         with an edge.
         <br><br>
@@ -33,15 +33,29 @@
         at the same time, trying to avoid sounding like other bands.
         <br><br>
         Producing the band’s sound at Alchemix Studios in Brisbane, Andrew Nolan first saw
-        Flint’s sound as a ‘vintage’ style of rock. “They sounded like some bands from the
+        <div class="flint">Flint.’s</div> sound as a ‘vintage’ style of rock. “They sounded like some bands from the
         90s or the naughts, but nothing I could put my finger on.” Armed with five
         compelling tunes, Flint. is recording the EP this April (2021), and it is scheduled
         for release in June.
-    </p>
+    </div>
 </div>
 
 <style>
-    b{
-        text-align: center;
+    @font-face {
+        font-family: 'Mistral';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Mistral'), url('/fonts/MISTRAL.woff') format('woff');
+    }
+
+    .content{
+        font-size: 1.5rem;
+    }
+    .flint{
+        display: inline;
+        font-family: 'Mistral';
+        padding: 0;
+        margin: 0;
+        font-size: 2rem;
     }
 </style>
