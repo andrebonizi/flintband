@@ -60,9 +60,3 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
-
-p{
-	font-size: 1rem;
-	line-height: 20px;
-	font-weight: normal;
-}
