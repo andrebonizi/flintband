@@ -7,7 +7,7 @@
 
 <style>
     .desk{
-        width: 30vw;
+        width: 45vw;
     }
     .mobile{
         width: 50vw;
