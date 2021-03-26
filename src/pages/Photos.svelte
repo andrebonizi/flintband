@@ -5,9 +5,8 @@
 
     let path = "image/photos/";
     let photos = [
-        "1.jpg", "2.jpg", "3.jpg",
-        "4.jpg", "5.jpg", "6.jpg",
-        "7.jpg", "8.jpg", "9.jpg",
+        "0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg",
+        "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg",
     ];
     $: left = 0;
 
@@ -33,8 +32,7 @@
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}" class="{mobile? "container-mobile" : "container-desk"}">
-    <p>PHOTOS</p>
-    <hr />
+    <p class="title">Photos</p><hr />
     <div class="arrow left"  on:click={moveRight}></div>
     <div class="carousel" style="--imgWidth: {imgWidth}px">
         <div class="items" style="transform: translateX({left}px);">
@@ -92,7 +90,4 @@
         transform: rotateZ(-45deg);
     }
     
-    p{
-        font-size: 1.5rem;
-    }
 </style>
