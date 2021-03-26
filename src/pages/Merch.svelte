@@ -13,12 +13,17 @@
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}">
-    <b>PRODUCTS AVAILABLE</b><hr />
+    <p class="title">Products Available</p><hr />
     <div class="container { mobile ? "mobile" : "desktop" }">
         {#each merch as item}
-            <img width="200" src="{item.img}" alt="{item.text}"/>
+            <div class="product">
+                <img width="200" src="{item.img}" alt="{item.text}"/>
+                
+            </div>
         {/each}
+        
     </div>
+    <div>Orders by <a href="mailto:flintbrisbane@gmail.com" >Email</a></div>
     <!-- <div>
         <b>SONGS AVAILABLE</b><hr />
         Colours<br>
@@ -45,5 +50,10 @@
     }
     img{
         height: max-content;
+    }
+    .product{
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px
     }
 </style>
