@@ -75,7 +75,6 @@
         text-shadow: 2px 2px 2px grey;
         cursor: pointer;
         border-radius: 20px;
-        background-color: rgba(0, 0, 255, 0.2);
         color: black;
         font-weight: bolder;
         font-size: 2rem;
