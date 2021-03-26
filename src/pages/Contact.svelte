@@ -4,19 +4,19 @@
 
 <div in:fly="{{ x: 200, duration: 2000 }}" class="container">
     <div>
+        <div class="title">Email:</div>
         <p>
-            <b>Email:</b><br>
             <a href="mailto:flintbrisbane@gmai.com">flintbrisbane@gmail.com</a>
+
         </p>
+        <div class="title">Telephones:</div>
         <p>
-            <b>Telephones:</b><br>
             +61 0410 391 913<br>
             +61 0490 116 835<br>
+
         </p>
-        <p>
-            <b>Smoke signals:</b><br>
-            <img src="image/smokesignals.png" alt="smoke signals" />
-        </p>
+        <div class="title">Smoke signals:</div><br>
+        <img src="image/smokesignals.png" alt="smoke signals" />
     </div>
 </div>
 
