@@ -4,9 +4,9 @@
     export let mobile;
 
     let merch = [
-        {img: "/image/merch/black_t-shirt01.png", text:"Flint black t-shirt", price: "", link: ""},
-        {img: "/image/merch/mug01.png", text:"Flint mug", price: "", link: ""},
-        {img: "/image/merch/white_t-shirt01.png", text:"Flint white t-shirt", price: "", link: ""},
+        {img: "/image/merch/black_t-shirt01 trans.png", text:"Flint black t-shirt", price: "", link: ""},
+        {img: "/image/merch/mug01 transparent.png", text:"Flint mug", price: "", link: ""},
+        {img: "/image/merch/Flint tee white transparentl.png", text:"Flint white t-shirt", price: "", link: ""},
         
     ]
 
