@@ -3,7 +3,7 @@
 	import Logo from './components/Logo.svelte';
 	import Navbar from './components/Nav.svelte';
 	import { Router } from "svelte-routing";
-	import Routes from './components/Routes.svelte'
+	import Routes from './components/Routes.svelte';
 
 	export let url = "";
 	let links = [
@@ -26,12 +26,14 @@
 	{#if mobile}
 		<div class="column">
 			<Logo mobile={mobile}/>
-			<Routes mobile={mobile}/>
+			<Routes  mobile={mobile}/>
 		</div>
 	{:else}
 		<div class="row">
 			<Logo mobile={mobile}/>
-			<Routes mobile={mobile}/>
+			<div class="container">
+				<Routes mobile={mobile}/>
+			</div>
 		</div>
 	{/if}
 </Router>
@@ -51,5 +53,11 @@
 	}
 	div{
 		overflow-x: hidden;
+	}
+	.container{
+		border-radius: 20px;
+		background-color: rgba(255,255,255,.5);
+		padding: 20px;
+		width: 100%;
 	}
 </style>
