@@ -49,7 +49,7 @@
         flex-direction: column;
     }
     img{
-        height: max-content;
+        height: 100%;
     }
     .product{
         display: flex;
