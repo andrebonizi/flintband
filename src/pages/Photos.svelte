@@ -49,26 +49,27 @@
 <style>
     .container-desk{
         position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .container-mobile{
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
     .carousel{
         width: var(--imgWidth);
         overflow: hidden;
         display: flex;
         border-radius: 20px;
-        height: 100%;
+        max-height: 100%;
     }
     .items{
         display: flex;
         flex-direction: row;
         left: var(--left);
         transition: 500ms;
-        align-items: flex-start;
     }
     .arrow{
         position: absolute;
@@ -96,7 +97,7 @@
         box-shadow: 5px 5px 5px black;
     }
     img{
-        height: 100%;
+        height: auto;
         width: 100%;
     }
 </style>
