@@ -4,10 +4,10 @@
     export let mobile;
 
     let path = "image/photos/";
-    let photos = [
-        "studio_all_of_us.jpg",    
-        "0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg",
+    let photos = [ 
+        "4.jpg", "1.jpg", "2.jpg", "3.jpg",
         "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg",
+        "0.jpg",
         
     ];
     $: left = 0;
@@ -51,7 +51,6 @@
         position: relative;
     }
     .container-mobile{
-        height: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -62,34 +61,42 @@
         overflow: hidden;
         display: flex;
         border-radius: 20px;
+        height: 100%;
     }
     .items{
         display: flex;
         flex-direction: row;
         left: var(--left);
         transition: 500ms;
+        align-items: flex-start;
     }
     .arrow{
         position: absolute;
-        top: 45%;
+        top: 50%;
         cursor: pointer;
         z-index: 2;
+        
     }
     .left{
-        left: 0;
+        left: 12px;
         width: 50px;
         height: 50px;
         border-left: 5px solid white;
         border-bottom: 5px solid white;
         transform: rotateZ(45deg);
+        box-shadow: -5px 5px 5px black;
     }
     .right{
-        right: 0;
+        right: 12px;
         width: 50px;
         height: 50px;
         border-right: 5px solid white;
         border-bottom: 5px solid white;
         transform: rotateZ(-45deg);
+        box-shadow: 5px 5px 5px black;
     }
-    
+    img{
+        height: 100%;
+        width: 100%;
+    }
 </style>
