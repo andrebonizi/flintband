@@ -70,7 +70,7 @@
     }
     .menu-btn{
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         box-shadow: 0px 10px 20px black;
         text-shadow: 2px 2px 2px grey;
         cursor: pointer;
@@ -79,6 +79,7 @@
         font-weight: bolder;
         font-size: 2rem;
         margin: 30px;
+        padding-right: 30px;
     }
     .menu{
         display: flex;
