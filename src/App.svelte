@@ -26,7 +26,9 @@
 	{#if mobile}
 		<div class="column">
 			<Logo mobile={mobile}/>
-			<Routes  mobile={mobile}/>
+			<div class="container">
+				<Routes  mobile={mobile}/>
+			</div>
 		</div>
 	{:else}
 		<div class="row">
