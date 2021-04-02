@@ -9,6 +9,7 @@
         <img src="image/photos/0.jpg" alt="Flint" />
     {/if}
     <div class="content">
+        <img src="image/photos/studio_all_of_us.jpg" alt="whole flint band together"/>
         <div class="flint">Flint.</div> is a Brisbane-based band taking rock for a ride on a roller coaster. 
         <br>
         Our sounds speaks for itself.
@@ -25,7 +26,6 @@
     }
 
     .content{
-        padding-top: 100px;
         text-align: center;
         font-size: 2rem;
         line-height: 50px;
