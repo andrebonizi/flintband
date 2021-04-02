@@ -5,9 +5,6 @@
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}">
-    {#if mobile}
-        <img src="image/photos/0.jpg" alt="Flint" />
-    {/if}
     <div class="content">
         <img src="image/photos/studio_all_of_us.jpg" alt="whole flint band together"/>
         <div class="flint">Flint.</div> is a Brisbane-based band taking rock for a ride on a roller coaster. 
