@@ -37,7 +37,4 @@
     img{
         width: 100%;
     }
-    .title{
-        font-size: 2rem;
-    }
 </style>

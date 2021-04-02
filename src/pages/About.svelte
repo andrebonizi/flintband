@@ -41,9 +41,6 @@
     .content{
         font-size: 1.5rem;
     }
-    .title{
-        font-size: 2rem;
-    }
     .flint{
         display: inline;
         font-family: 'Mistral';
