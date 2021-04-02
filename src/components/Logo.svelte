@@ -10,7 +10,7 @@
         width: 45vw;
     }
     .mobile{
-        width: 50vw;
+        width: 40vw;
         position: fixed;
         left: 0;
         top: 0;
