@@ -9,9 +9,9 @@
         <img src="image/photos/0.jpg" alt="Flint" />
     {/if}
     <div class="content">
-        <div class="flint">Flint.</div> is a Brisbane-based band that want to be heard.
-        <br><br>
-        Our sound speaks for itself.
+        <div class="flint">Flint.</div> is a Brisbane-based band taking rock for a ride on a roller coaster. 
+        <br>
+        Our sounds speaks for itself.
         <br>
     </div>
 </div>
