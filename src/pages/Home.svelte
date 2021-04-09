@@ -1,16 +1,20 @@
 <script>
     import { fly } from 'svelte/transition'; 
-    import Logo from '../components/Logo.svelte';
-    export let mobile;
+    import Icon from 'svelte-awesome';
+    import { faNewspaper } from '@fortawesome/free-regular-svg-icons'
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}">
     <div class="content">
-        <img src="image/photos/studio_all_of_us.jpg" alt="whole flint band together"/>
+        <img src="image/photos/studio_all_of_us.jpg" alt="whole flint band together"/><br>
         <div class="flint">Flint.</div> is a Brisbane-based band taking rock for a ride on a roller coaster. 
         <br>
         Our sounds speaks for itself.
-        <br>
+        <br><br>
+        <a href="docs/press_april_2021.pdf" target="_blank" >
+            <Icon data={faNewspaper} scale={3} pulse></Icon>
+            Press
+        </a>
     </div>
 </div>
 
@@ -28,7 +32,7 @@
         line-height: 50px;
     }
     img{
-        width: 100%;
+        width: 80%;
     }
 
     .flint{
