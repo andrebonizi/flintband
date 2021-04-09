@@ -5,7 +5,7 @@
 
     let path = "image/photos/";
     let photos = [ 
-        "4.jpg", "1.jpg", "2.jpg", "3.jpg",
+        "3.jpg", "4.jpg", "1.jpg", "2.jpg", 
         "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg",
         "0.jpg",
         
@@ -33,7 +33,7 @@
     }
 </script>
 
-<div in:fly="{{ x: 200, duration: 2000 }}" class="{mobile? "container-mobile" : "container-desk"}">
+<div in:fly="{{ x: 200, duration: 2000 }}" fade class="{mobile? "container-mobile" : "container-desk"}">
     <p class="title">Photos</p><hr />
     <div class="arrow left"  on:click={moveRight}></div>
     <div class="carousel" style="--imgWidth: {imgWidth}px">
@@ -63,7 +63,6 @@
         overflow: hidden;
         display: flex;
         border-radius: 20px;
-        max-height: 100%;
     }
     .items{
         display: flex;
@@ -97,7 +96,6 @@
         box-shadow: 5px 5px 5px black;
     }
     img{
-        height: auto;
-        width: 100%;
+        object-fit: contain;
     }
 </style>
