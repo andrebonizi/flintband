@@ -30,10 +30,6 @@
         line-height: 1.5rem;
         font-weight: normal;
     }
-    b{
-        text-decoration: underline;
-        line-height: 3rem;
-    }
     img{
         width: 100%;
     }
