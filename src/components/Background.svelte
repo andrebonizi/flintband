@@ -1,5 +1,5 @@
 <div>
-    <img src="image/background.jpg"/>
+    <img src="image/background.jpg" alt="background"/>
     <div class="overlay"></div>
 </div>
 
