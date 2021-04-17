@@ -1,13 +1,15 @@
 <script>
-    import { fly, fade } from 'svelte/transition';
+    import { fly } from 'svelte/transition';
 
     export let mobile;
 
     let path = "image/photos/";
     let photos = [ 
+        
+        "0.jpg", "10.jpg", "11.jpg", "12.jpg",
         "3.jpg", "4.jpg", "1.jpg", "2.jpg", 
-        "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg",
-        "0.jpg",
+        "5.jpg", "6.jpg", "7.jpg", "8.jpg", 
+        "9.jpg",
         
     ];
     $: left = 0;
@@ -25,12 +27,13 @@
 
     function loop(){
         if(left > 0){
-            left = -imgWidth*8;
+            left = -imgWidth*(photos.length-1);
         }
-        if(left < -imgWidth*8){
+        if(left < -imgWidth*(photos.length-1)){
             left = 0;
         }
     }
+    console.log(photos.length)
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}" fade class="{mobile? "container-mobile" : "container-desk"}">
