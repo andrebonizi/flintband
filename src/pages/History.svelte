@@ -35,7 +35,7 @@
         Producing the band’s sound at Alchemix Studios in Brisbane, Andrew Nolan first saw
         <div class="flint">Flint.’s</div> sound as a ‘vintage’ style of rock. “They sounded like some bands from the
         90s or the naughts, but nothing I could put my finger on.” Armed with five
-        compelling tunes, Flint. is recording the EP this April (2021), and it is scheduled
+        compelling tunes, <div class="flint">Flint.</div> is recording the EP this April (2021), and it is scheduled
         for release in June.
     </div>
 </div>

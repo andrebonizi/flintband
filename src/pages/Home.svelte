@@ -6,7 +6,7 @@
 
 <div in:fly="{{ x: 200, duration: 2000 }}">
     <div class="content">
-        <img src="image/photos/studio_all_of_us.jpg" alt="whole flint band together"/><br>
+        <img src="image/home.jpg" alt="whole flint band together"/><br>
         <div class="flint">Flint.</div> is a Brisbane-based band taking rock for a ride on a roller coaster. 
         <br>
         Our sounds speaks for itself.
