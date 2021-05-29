@@ -24,6 +24,7 @@
     .container{
         display: flex;
         flex-direction: column;
+        padding: 20px 20px;
     }
     p{
         font-size: 1.5rem;

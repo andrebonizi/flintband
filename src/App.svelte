@@ -9,6 +9,7 @@
 	let links = [
 		{ link: "/", text: "Home"},
 		{ link: "about", text: "About Flint."},
+		{ link: "music", text: "Music"},
 		{ link: "photos", text: "Photos"},
 		{ link: "tour", text: "Tour Dates"},
 		{ link: "history", text: "History"},
@@ -50,16 +51,12 @@
 	}
 	.column{
 		display: flex;
-		width: 90vw;
+		width: 95vw;
 		flex-direction: column;
-	}
-	div{
-		overflow-x: hidden;
 	}
 	.container{
 		border-radius: 20px;
 		background-color: rgba(255,255,255,.5);
-		padding: 20px;
 		width: 100%;
 	}
 </style>

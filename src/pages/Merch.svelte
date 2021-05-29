@@ -24,12 +24,6 @@
         
     </div>
     <div>Orders by <a href="mailto:flintbrisbane@gmail.com" >Email</a></div>
-    <!-- <div>
-        <b>SONGS AVAILABLE</b><hr />
-        Colours<br>
-        Wide Awake<br>
-        Serenity<br>
-    </div> -->
 </div>
 
 <style>
@@ -53,7 +47,6 @@
     }
     .product{
         display: flex;
-        padding-top: 20px;
-        padding-bottom: 20px
+        padding: 20px 50px;
     }
 </style>

@@ -79,7 +79,7 @@
         font-weight: bolder;
         font-size: 2rem;
         margin: 30px;
-        padding-right: 30px;
+        padding-right: 20px;
     }
     .menu{
         display: flex;
@@ -99,6 +99,5 @@
         justify-content: space-evenly;
         align-items: center;
         font-weight: bold;
-        /* text-shadow: 2px 2px 2px grey; */
     }
 </style>

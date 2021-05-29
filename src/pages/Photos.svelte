@@ -54,6 +54,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0px 70px;
     }
     .container-mobile{
         position: relative;

@@ -8,12 +8,14 @@
     import Tour from '../pages/Tour.svelte';
     import About from '../pages/About.svelte';
     import History from '../pages/History.svelte';
+    import Music from '../pages/Music.svelte';
 
     export let mobile;
 </script>
 
 <div>
     <Route path="about" component="{About}" mobile={mobile}/>
+    <Route path="music" component="{Music}" mobile={mobile} /> 
     <Route path="videos" component="{Videos}" />
     <Route path="photos" component="{Photos}" mobile={mobile}/>
     <Route path="contact" component="{Contact}" />

@@ -30,6 +30,8 @@
         text-align: center;
         font-size: 2rem;
         line-height: 50px;
+        padding: 20px 30px;
+
     }
     img{
         width: 80%;

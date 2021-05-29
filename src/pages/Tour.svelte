@@ -6,7 +6,7 @@
     ]
 </script>
 
-<div in:fly="{{ x: 200, duration: 2000 }}">
+<div in:fly="{{ x: 200, duration: 2000 }}" class="container">
     <div class="title">Dates</div><hr />
     {#each dates as date}
         <div class="date">
@@ -34,5 +34,8 @@
     b{
         font-size: 2.5rem;
         text-decoration: underline;
+    }
+    .container{
+        padding: 20px;
     }
 </style>

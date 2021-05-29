@@ -33,10 +33,12 @@
     }
     .desk{
         font-size: 1.5rem;
+        padding: 20px;
     }
     .mobile{
         font-size: 2rem;    
         text-align: center;
+        padding: 20px;
     }
     .content{
         font-size: 1.5rem;

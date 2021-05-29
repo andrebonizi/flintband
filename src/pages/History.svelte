@@ -2,7 +2,7 @@
     import { fly } from 'svelte/transition';
 </script>
 
-<div in:fly="{{ x: 200, duration: 2000 }}">
+<div in:fly="{{ x: 200, duration: 2000 }}" class="container">
     <div class="title">History</div><hr>
     <div class="content">
         Before getting <div class="flint">Flint.</div> up and running, the two songwriters, Peter Jenner and Tony
@@ -57,5 +57,8 @@
         padding: 0;
         margin: 0;
         font-size: 2rem;
+    }
+    .container{
+        padding: 20px;
     }
 </style>
