@@ -13,7 +13,6 @@
         <p>
             +61 0410 391 913<br>
             +61 0490 116 835<br>
-
         </p>
         <div class="title">Smoke signals:</div><br>
         <img src="image/smokesignals.png" alt="smoke signals" />
