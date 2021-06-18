@@ -30,9 +30,9 @@
         <div class="single">
             <img src="image/covers/colours.png" alt="colours album cover" />
             <div class="links">
-                <img class="icon" src="image/icons/youtube.png" alt="youtube icon" />
-                <img class="icon" src="image/icons/spotify.png" alt="spotify icon" />
-                <img class="icon" src="image/icons/soundcloud.png" alt="soundcloud icon" />
+                <a href=""><img class="icon" src="image/icons/youtube.png" alt="youtube icon" /></a>
+                <a href=""><img class="icon" src="image/icons/spotify.png" alt="spotify icon" /></a>
+                <a href=""><img class="icon" src="image/icons/soundcloud.png" alt="soundcloud icon" /></a>
             </div>
             <div>
                 Follow the Embers is
@@ -70,6 +70,7 @@
     }
     .icon{
         width: 50px;
+        margin: 10px;
     }
     div.highlight{
         display: inline;
