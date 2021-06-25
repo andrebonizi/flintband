@@ -12,37 +12,34 @@
         <div class="single">
             <img src="image/covers/embers.png" alt="embers album cover" />
             <div class="links">
-                <img class="icon" src="image/icons/youtube.png" alt="youtube icon" />
-                <img class="icon" src="image/icons/spotify.png" alt="spotify icon" />
-                <img class="icon" src="image/icons/soundcloud.png" alt="soundcloud icon" />
+                <a href="https://flintbrisbane.bandcamp.com/album/follow-the-embers-ep">
+                    <img class="icon" src="image/icons/bandcamp_extended.png" alt="bandcamp icon" />
+                </a>
+                <a href="https://soundcloud.com/flint-band/sets/flint-follow-the-embers/s-5F0R4u8VlnH">
+                    <img class="icon" src="image/icons/soundcloud_extended.png" alt="soundcloud icon" />
+                </a>
             </div>
             <div>
-                Colours begins with a sparkley guitar
-                to ease into the mood, lifts your
-                spirit in the chorus, and finishes big
-                when 
-                <div class="highlight">
-                    All The Colours
-                    Blend Into One.
-                </div>
+                Follow the Embers is Flint.’s first
+                EP, out late July this year.
             </div>
         </div>
         <div class="single">
             <img src="image/covers/colours.png" alt="colours album cover" />
             <div class="links">
-                <a href=""><img class="icon" src="image/icons/youtube.png" alt="youtube icon" /></a>
-                <a href=""><img class="icon" src="image/icons/spotify.png" alt="spotify icon" /></a>
-                <a href=""><img class="icon" src="image/icons/soundcloud.png" alt="soundcloud icon" /></a>
+                <a href="https://flintbrisbane.bandcamp.com/track/colours">
+                    <img class="icon" src="image/icons/bandcamp_extended.png" alt="bandcamp icon" />
+                </a>
+                <a href="https://soundcloud.com/flint-band/colours/s-ndR82NmrAr3 ">
+                    <img class="icon" src="image/icons/soundcloud_extended.png" alt="soundcloud icon" />
+                </a>
             </div>
             <div>
-                Follow the Embers is
-                <div class="highlight">
-                    Flint.’s     
-                </div> 
-                first
-                EP, out late July this year.
+                Colours begins with a sparkley guitar
+                to ease into the mood, lifts your
+                spirit in the chorus, and finishes big
+                when All The Colours Blend Into One.
             </div>
-
         </div>
     </div>
 </div>
@@ -71,6 +68,7 @@
     .icon{
         width: 50px;
         margin: 10px;
+        border-radius: 5px;
     }
     div.highlight{
         display: inline;
@@ -78,6 +76,7 @@
     }
     .links{
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-content: center;
     }

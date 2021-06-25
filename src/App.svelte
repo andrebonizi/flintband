@@ -2,6 +2,7 @@
 	import Background from './components/Background.svelte';
 	import Logo from './components/Logo.svelte';
 	import Navbar from './components/Nav.svelte';
+	import Footer from './components/Footer.svelte';
 	import { Router } from "svelte-routing";
 	import Routes from './components/Routes.svelte';
 
@@ -40,7 +41,7 @@
 		</div>
 	{/if}
 </Router>
-
+<Footer />
 </div>
 <style>
 	.row{

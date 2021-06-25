@@ -11,7 +11,7 @@
         <br>
         Our sounds speaks for itself.
         <br><br>
-        <a href="docs/press_june_2021.pdf" target="_blank" >
+        <a href="docs/press_july_2021.pdf" target="_blank" >
             <Icon data={faNewspaper} scale={3} pulse></Icon>
             Press
         </a>
