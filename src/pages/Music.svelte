@@ -27,10 +27,13 @@
         <div class="single">
             <img src="image/covers/colours.png" alt="colours album cover" />
             <div class="links">
-                <a href="https://flintbrisbane.bandcamp.com/track/colours">
+                <a href="https://www.youtube.com/watch?v=HzLb7Dl5bag&ab_channel=Flint" target="_blank">
+                    <img class="icon" src="image/icons/youtube_extended.png" alt="youtube icon" />
+                </a>
+                <a href="https://flintbrisbane.bandcamp.com/track/colours" target="_blank">
                     <img class="icon" src="image/icons/bandcamp_extended.png" alt="bandcamp icon" />
                 </a>
-                <a href="https://soundcloud.com/flint-band/colours/s-ndR82NmrAr3 ">
+                <a href="https://soundcloud.com/flint-band/colours/s-ndR82NmrAr3" target="_blank">
                     <img class="icon" src="image/icons/soundcloud_extended.png" alt="soundcloud icon" />
                 </a>
             </div>
