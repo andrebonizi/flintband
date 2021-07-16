@@ -6,7 +6,7 @@
         { title:"Bandcamp", link:"https://flintbrisbane.bandcamp.com/", icon:"bandcamp.png"},
         { title:"Soundcloud", link:"https://soundcloud.com/flint-band/", icon:"soundcloud.png"},
         { title:"Linktree", link:"https://linktr.ee/flintbrisbane", icon:"linktree.png"},
-        { title:"YouTube", link:"https://www.youtube.com/channel/UCKYJQFcQ6NgJU9H2R_Yb3FA ", icon:"youtube.png"},
+        { title:"YouTube", link:"https://www.youtube.com/channel/UCKYJQFcQ6NgJU9H2R_Yb3FA", icon:"youtube.png"},
     ]
 </script>
 
