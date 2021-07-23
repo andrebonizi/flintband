@@ -9,13 +9,14 @@
 	export let url = "";
 	let links = [
 		{ link: "/", text: "Home"},
-		{ link: "about", text: "About Flint."},
+		{ link: "about", text: "About"},
 		{ link: "music", text: "Music"},
 		{ link: "photos", text: "Photos"},
 		{ link: "tour", text: "Tour Dates"},
 		{ link: "history", text: "History"},
 		{ link: "merch", text: "Merch"},
 		{ link: "contact", text: "Contact"},
+		{ link: "press", text: "Press/Airplay"},
 	];
 
 	let mobile = window.matchMedia("(orientation: portrait)").matches ? true : false;

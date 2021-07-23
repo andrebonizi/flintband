@@ -9,7 +9,7 @@
     import About from '../pages/About.svelte';
     import History from '../pages/History.svelte';
     import Music from '../pages/Music.svelte';
-
+    import Press from '../pages/Press.svelte';
     export let mobile;
 </script>
 
@@ -22,6 +22,7 @@
     <Route path="merch" component="{Merch}" mobile={mobile}/>
     <Route path="history" component="{History}" />
     <Route path="tour" component="{Tour}" />
+    <Route path="press" component="{Press}" />
     <Route path="/" mobile={mobile} component="{Home}"></Route>
 </div>
 
