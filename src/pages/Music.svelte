@@ -49,9 +49,19 @@
         <div class="group">
             <div class="single">
                 <img src="image/covers/wideawake.jpeg" alt="wide awake album cover" />
-                
+                <div class="links">
+                    <a href="https://youtu.be/poSwKzsiSaM " target="_blank">
+                        <img class="icon" src="image/icons/youtube_extended.png" alt="youtube icon" />
+                    </a>
+                    <a href="https://flintbrisbane.bandcamp.com/track/wide-awake" target="_blank">
+                        <img class="icon" src="image/icons/bandcamp_extended.png" alt="bandcamp icon" />
+                    </a>
+                    <a href="https://soundcloud.com/flint-band/wide-awake/s-Ve8i5h4qEBa" target="_blank">
+                        <img class="icon" src="image/icons/soundcloud_extended.png" alt="soundcloud icon" />
+                    </a>
+                </div>
                 <div>
-                    Awakening soon...
+                    Wide awake!
                 </div>
             </div>
         </div>
