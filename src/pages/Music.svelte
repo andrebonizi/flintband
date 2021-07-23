@@ -61,7 +61,7 @@
                     </a>
                 </div>
                 <div>
-                    Wide awake!
+                    With a hint of Arctic Monkeys, Wide Awake is a roller coaster ride through the dark and light of a high-energy rock dream.
                 </div>
             </div>
         </div>
