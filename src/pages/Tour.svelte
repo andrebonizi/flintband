@@ -16,8 +16,7 @@
         </div>
     {/each}
     <p>
-        EP launch in June, 2021. Stay tuned for date and venue.
-
+        After the launch of the EP Follow the Embers in late July, 2021, Flint is ready to get back on stage....whenever that my be possible.
     </p>
 
 </div>
