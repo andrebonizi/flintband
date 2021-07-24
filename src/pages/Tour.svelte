@@ -16,7 +16,8 @@
         </div>
     {/each}
     <p>
-        After the launch of the EP Follow the Embers in late July, 2021, Flint is ready to get back on stage....whenever that may be possible.
+        After the launch of the EP Follow the Embers in late July, 
+        2021, Flint is ready to get back on stage....whenever that may be possible.
     </p>
 
 </div>
