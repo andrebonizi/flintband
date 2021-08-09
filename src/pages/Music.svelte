@@ -64,6 +64,20 @@
                     With a hint of Arctic Monkeys, Wide Awake is a roller coaster ride through the dark and light of a high-energy rock dream.
                 </div>
             </div>
+            <div class="single">
+                <img class="icon" src="image/icons/spotify_white.png" alt="spotify icon" /><p style="display: inline;">Spotify Links:</p>
+                <ul>
+                    <li><a href="https://open.spotify.com/album/2Rueev6IPxtxwbXbuhfYwi?si=VIEyra5uSBisV22-UEpF8Q&amp;dl_branch=1">
+                            Follow the Embers
+                    </a></li>
+                    <li><a href="https://open.spotify.com/track/3RjPLxIMiokDvOtu3RNtH6?si=376c0e7dd7fe492a">Wide Awake</a></li>
+                    <li><a href="https://open.spotify.com/track/6XlOz6VulBoNeuyUrVcMDh?si=6577e16a06764e09">Painted Skin</a></li>
+                    <li><a href="https://open.spotify.com/track/3hrCEbZcGNNF0TqPE7axHc?si=7100eafb47f240b6">Colours</a></li>
+                    <li><a href="https://open.spotify.com/track/40wdwUon6dWP1AxAFCj567?si=1d64d529aebc4ef6">Give me Serenity</a></li>
+                    <li><a href="https://open.spotify.com/track/6tqCse5yVRredmhp99W6ky?si=22de55e6bd054815">Shadows</a></li>
+                </ul>
+
+            </div>
         </div>
     </div>
 </div>
