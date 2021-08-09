@@ -61,7 +61,8 @@
     <br>Unheard Indie (<a href="https://www.podparadise.com/Podcast/1389081148/Listen/1626607404/0?fbclid=IwAR3NEFT3UKXoR06mhSbjK7Pa6qZj0mUAJDnv4jlbLSxXDug7l_C3mhi5eZ8">Ep. 224</a>)
     <br>What’s Happenin’ Music Show (<a href="https://soundcloud.com/advosound/whats-happenin-music-show-episode-11?fbclid=IwAR0hbwvZws8vz1PgxLJL5ZLA74Nl37HnrnB9ksLmuI_wkNchQKZUkkvwSOM">Ep. 11</a>)
     <br>A1M Record’s New Music Show (<a href="https://soundcloud.com/a1mrecords/new-music-show-episode-119-june-24th-indie-rocks-radio?fbclid=IwAR0hbwvZws8vz1PgxLJL5ZLA74Nl37HnrnB9ksLmuI_wkNchQKZUkkvwSOM">Ep. 119</a>)
-    <br>Buzzrpod (<a href="https://thebuzzrpod.com/2021/06/28/flint/">Jun. 28</a> and July 28)
+    <br>Buzzrpod (<a href="https://thebuzzrpod.com/2021/06/28/flint/">Jun. 28</a> and <a href="https://thebuzzrpod.com/2021/08/02/flint-debut-ep-follow-the-embers/">Aug. 2</a>)
+    <br>Gee Force (<a href="https://www.mixcloud.com/Deadearnest/gee-force-25-07-21/?fbclid=IwAR1q8aExk4fdMMt7jZGdCc4VLewOEVmM9ovpz_UX10gGYfqeA-k93qqfnoM">Jul. 25</a>)
 </p>
 
 <p class="title">Press</p>
