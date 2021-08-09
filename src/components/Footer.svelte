@@ -7,6 +7,7 @@
         { title:"Soundcloud", link:"https://soundcloud.com/flint-band/", icon:"soundcloud.png"},
         { title:"Linktree", link:"https://linktr.ee/flintbrisbane", icon:"linktree.png"},
         { title:"YouTube", link:"https://www.youtube.com/channel/UCKYJQFcQ6NgJU9H2R_Yb3FA", icon:"youtube.png"},
+        { title:"Spotify", link:"https://open.spotify.com/artist/0xNDoqhAkq7E60KiboodT8?si=b1ddSVdBSgSbpmEJ97opTg&dl_branch=1", icon:"spotify.png" },
     ]
 </script>
 
