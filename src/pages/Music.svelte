@@ -100,6 +100,8 @@
     .group {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
     .single{
         margin: 20px 50px;
@@ -125,5 +127,10 @@
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    @media (max-width: 800px) {
+        .group {
+            flex-direction: column;
+        }
     }
 </style>
