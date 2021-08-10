@@ -13,8 +13,9 @@
             Press
         </a>
         
+<br><br>
+<p class="title">Radio stations/programs </p><div class="flint">Flint.</div><p class="title"> has been played on:</p>
 
-<p class="title">Radio stations/programs Flint has been played on:</p>
 <div class="row">
     <div>
         <br>Radio WIGWAM
@@ -55,7 +56,7 @@
         <br>Deal Radio 
     </div>
 </div>
-
+<p class="content"></p>
 <p class="title">Podcasts</p>
 <p class="content">
     <br>Unheard Indie (<a href="https://www.podparadise.com/Podcast/1389081148/Listen/1626607404/0?fbclid=IwAR3NEFT3UKXoR06mhSbjK7Pa6qZj0mUAJDnv4jlbLSxXDug7l_C3mhi5eZ8">Ep. 224</a>)
@@ -109,11 +110,11 @@
         font-weight: bold;
     }
     .title{
+        display: inline;
         font-size: 20px;
         font-weight: bold;
     }
     a.press{
-        text-align: center;
-        margin-left: 30%;
+        text-align: left;
     }
 </style>

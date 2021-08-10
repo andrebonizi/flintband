@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div class="single">
-                <img class="icon" src="image/icons/spotify_white.png" alt="spotify icon" /><p style="display: inline;">Spotify Links:</p>
+                <img class="icon" style="width: 20px;" src="image/icons/spotify_white.png" alt="spotify icon" /><p style="display: inline;">Spotify Links:</p>
                 <ul>
                     <li><a href="https://open.spotify.com/album/2Rueev6IPxtxwbXbuhfYwi?si=VIEyra5uSBisV22-UEpF8Q&amp;dl_branch=1">
                             Follow the Embers
@@ -100,15 +100,21 @@
     .group {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     }
     .single{
         margin: 20px 50px;
         width: 250px;
+        text-align: left;
     }
-    .single > div{
+    .single > div, .single > ul, .single > p{
         font-size: 1rem;
+    }
+    .single > p {
+        text-decoration: underline;
+        text-transform: uppercase;
+        align-self: flex-start;
     }
     .icon{
         width: 50px;
@@ -131,6 +137,7 @@
     @media (max-width: 800px) {
         .group {
             flex-direction: column;
+            align-items: center;
         }
     }
 </style>
