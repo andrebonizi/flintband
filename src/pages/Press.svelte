@@ -54,6 +54,7 @@
         <br>Good Music Radio
         <br>BIG City Radio
         <br>Deal Radio 
+        <br>Radio My Way
     </div>
 </div>
 <p class="content"></p>
@@ -64,6 +65,7 @@
     <br>A1M Record’s New Music Show (<a href="https://soundcloud.com/a1mrecords/new-music-show-episode-119-june-24th-indie-rocks-radio?fbclid=IwAR0hbwvZws8vz1PgxLJL5ZLA74Nl37HnrnB9ksLmuI_wkNchQKZUkkvwSOM">Ep. 119</a>)
     <br>Buzzrpod (<a href="https://thebuzzrpod.com/2021/06/28/flint/">Jun. 28</a> and <a href="https://thebuzzrpod.com/2021/08/02/flint-debut-ep-follow-the-embers/">Aug. 2</a>)
     <br>Gee Force (<a href="https://www.mixcloud.com/Deadearnest/gee-force-25-07-21/?fbclid=IwAR1q8aExk4fdMMt7jZGdCc4VLewOEVmM9ovpz_UX10gGYfqeA-k93qqfnoM">Jul. 25</a>)
+    <br>Andy Gee (<a href="https://www.mixcloud.com/Deadearnest/gee-force-08-08-21/">Aug. 8</a>)
 </p>
 
 <p class="title">Press</p>
