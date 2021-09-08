@@ -74,6 +74,7 @@
     Band bio</a> on Araminta’s Attic blog – April 14 th , 2021
     <br><a href="https://corruptedsounds.com.au/flint-release-their-new-single-colours/">Review</a> of the video for Colours by Corrupted Sounds - June 27 th , 2021
     <br><a href="https://thepermanentrainpress.com/post/655199343670935552/under-the-radar-june-2021">Review</a> of our first single Colours by The Permanent Rain Press - June 27 th , 2021
+    <br><a href="https://cooltop20.com/2021/09/04/chart-update-2021-wk35/">Cool Top 20</a> Weekly Chart Week 35
 </p>
 </div>
 

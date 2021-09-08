@@ -15,6 +15,10 @@
         fruit of their efforts is (will be) the band’s debut EP, a five-song compilation of rock
         music with an edge.
         <br><br>
+
+        <div class="flint">Flint.</div> has a new drummer - Luke Hetherton. Luke joined in August 2021 and is getting up to speed for our first gig in September.
+
+        <br><br>
         <div class="flint">Flint.</div> began as a desire to create a sound that is not obvious, but which traverses
         several realms of rock. Odd tunings, unexpected chord progressions, peculiar
         percussion are blended carefully with lyrical musings that take listeners on a roller
