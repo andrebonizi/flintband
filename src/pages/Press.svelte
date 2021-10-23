@@ -8,7 +8,7 @@
 <div in:fly="{{ x: 200, duration: 2000 }}" class="{ mobile ? "mobile": "desk"}">
     <div class="main-title">Press/Airplay</div><hr>
         <br><br>
-        <a class="press" href="docs/press_august_2021.pdf" target="_blank" >
+        <a class="press" href="docs/press_august_2021(2).pdf" target="_blank" >
             <Icon data={faNewspaper} scale={3} pulse></Icon>
             Press
         </a>

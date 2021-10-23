@@ -12,9 +12,7 @@
 		{ link: "about", text: "About"},
 		{ link: "music", text: "Music"},
 		{ link: "photos", text: "Photos"},
-		{ link: "tour", text: "Tour Dates"},
-		{ link: "history", text: "History"},
-		{ link: "merch", text: "Merch"},
+		{ link: "videos", text: "Videos"},
 		{ link: "contact", text: "Contact"},
 		{ link: "press", text: "Press/Airplay"},
 	];
@@ -60,5 +58,6 @@
 		border-radius: 20px;
 		background-color: rgba(255,255,255,.5);
 		width: 100%;
+		margin-bottom: 100px;
 	}
 </style>

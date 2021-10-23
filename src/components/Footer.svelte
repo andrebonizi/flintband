@@ -15,7 +15,7 @@
     <div class="icon-group">
         {#each socialNets as social }
             <a href="{social.link}" target="_blank">
-                <img class="icon" src="image/icons/{social.icon}" alt="{social.title}"/>
+                <img class="icon" src="media/icons/{social.icon}" alt="{social.title}"/>
             </a>
         {/each}
     </div>

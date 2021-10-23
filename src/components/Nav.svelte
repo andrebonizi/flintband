@@ -37,6 +37,7 @@
                     {link.text}
                 </div>
             </Link>
+            {#if i >= 0 && i < links.length -1 }|{/if}
         {/each}
     </div>
 {/if}

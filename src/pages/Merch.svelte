@@ -4,9 +4,9 @@
     export let mobile;
 
     let merch = [
-        {img: "/image/merch/black_t-shirt01 trans.png", text:"Flint black t-shirt", price: "", link: ""},
-        {img: "/image/merch/mug01 transparent.png", text:"Flint mug", price: "", link: ""},
-        {img: "/image/merch/Flint tee white transparentl.png", text:"Flint white t-shirt", price: "", link: ""},
+        {img: "/media/merch/black_t-shirt01 trans.png", text:"Flint black t-shirt", price: "", link: ""},
+        {img: "/media/merch/mug01 transparent.png", text:"Flint mug", price: "", link: ""},
+        {img: "/media/merch/Flint tee white transparentl.png", text:"Flint white t-shirt", price: "", link: ""},
         
     ]
 
@@ -18,12 +18,15 @@
         {#each merch as item}
             <div class="product">
                 <img width="200" src="{item.img}" alt="{item.text}"/>
-                
             </div>
         {/each}
-        
     </div>
-    <div>Orders by <a href="mailto:flintbrisbane@gmail.com" >Email</a></div>
+    <div>
+        Orders by 
+        <a href="mailto:flintbrisbane@gmail.com" >
+            Email
+        </a>
+    </div>
 </div>
 
 <style>

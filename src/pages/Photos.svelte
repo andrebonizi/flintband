@@ -3,14 +3,11 @@
 
     export let mobile;
 
-    let path = "image/photos/";
-    let photos = [ 
-        
-        "0.jpg", "10.jpg", "11.jpg", "12.jpg",
-        "3.jpg", "4.jpg", "1.jpg", "2.jpg", 
-        "5.jpg", "6.jpg", "7.jpg", "8.jpg", 
-        "9.jpg", "13.jpg", "14.jpg", "15.jpg"
-        
+    let path = "media/photos/";
+    let photos = [
+        "Soundgarden 1.jpg", "Soundgarden 2.jpg", "Soundgarden 3.jpg", "Soundgarden 4.jpg",
+        "Soundgarden 5.jpg", "Soundgarden 6.jpg", "Soundgarden 7.jpg", "Soundgarden 8.jpg", 
+        "Soundgarden 9.jpg", "Soundgarden 10.jpg"
     ];
     $: left = 0;
 
@@ -64,9 +61,10 @@
     }
     .carousel{
         width: var(--imgWidth);
+        height: var(--imgWidth);
         overflow: hidden;
         display: flex;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .items{
         display: flex;
@@ -80,14 +78,14 @@
         top: 50%;
         cursor: pointer;
         z-index: 2;
-        
+        border-radius: 20px;
     }
     .left{
         left: 12px;
         width: 50px;
         height: 50px;
-        border-left: 5px solid white;
-        border-bottom: 5px solid white;
+        border-left: 5px solid black;
+        border-bottom: 5px solid black;
         transform: rotateZ(45deg);
         box-shadow: -5px 5px 5px black;
     }
@@ -95,8 +93,8 @@
         right: 12px;
         width: 50px;
         height: 50px;
-        border-right: 5px solid white;
-        border-bottom: 5px solid white;
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
         transform: rotateZ(-45deg);
         box-shadow: 5px 5px 5px black;
     }

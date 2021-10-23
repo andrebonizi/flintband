@@ -5,41 +5,42 @@
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}">
+    <div class="title">Music</div>
     <div class="info">
         Click on preferred link to listen to the song or see the video.
     </div>
     <div  class="{ mobile ? "mobile": "desk"}">
         <div class="group">
             <div class="single">
-                <img src="image/covers/embers.png" alt="embers album cover" />
+                <img src="media/covers/embers.png" alt="embers album cover" />
                 <div class="links">
                     <a href="https://flintbrisbane.bandcamp.com/album/follow-the-embers-ep">
-                        <img class="icon" src="image/icons/bandcamp_extended.png" alt="bandcamp icon" />
+                        <img class="icon" src="media/icons/bandcamp_extended.png" alt="bandcamp icon" />
                     </a>
                     <a href="https://soundcloud.com/flint-band/sets/flint-follow-the-embers/s-5F0R4u8VlnH">
-                        <img class="icon" src="image/icons/soundcloud_extended.png" alt="soundcloud icon" />
+                        <img class="icon" src="media/icons/soundcloud_extended.png" alt="soundcloud icon" />
                     </a>
                 </div>
                 <div>
-                    Follow the Embers is Flint.’s first
+                    <b>Follow the Embers</b> is Flint.’s first
                     EP, out late July this year.
                 </div>
             </div>
             <div class="single">
-                <img src="image/covers/colours.png" alt="colours album cover" />
+                <img src="media/covers/colours.png" alt="colours album cover" />
                 <div class="links">
                     <a href="https://www.youtube.com/watch?v=HzLb7Dl5bag&ab_channel=Flint" target="_blank">
-                        <img class="icon" src="image/icons/youtube_extended.png" alt="youtube icon" />
+                        <img class="icon" src="media/icons/youtube_extended.png" alt="youtube icon" />
                     </a>
                     <a href="https://flintbrisbane.bandcamp.com/track/colours" target="_blank">
-                        <img class="icon" src="image/icons/bandcamp_extended.png" alt="bandcamp icon" />
+                        <img class="icon" src="media/icons/bandcamp_extended.png" alt="bandcamp icon" />
                     </a>
                     <a href="https://soundcloud.com/flint-band/colours/s-ndR82NmrAr3" target="_blank">
-                        <img class="icon" src="image/icons/soundcloud_extended.png" alt="soundcloud icon" />
+                        <img class="icon" src="media/icons/soundcloud_extended.png" alt="soundcloud icon" />
                     </a>
                 </div>
                 <div>
-                    Colours begins with a sparkley guitar
+                    <b>Colours</b> begins with a sparkley guitar
                     to ease into the mood, lifts your
                     spirit in the chorus, and finishes big
                     when All The Colours Blend Into One.
@@ -48,24 +49,24 @@
         </div>
         <div class="group">
             <div class="single">
-                <img src="image/covers/wideawake.jpeg" alt="wide awake album cover" />
+                <img src="media/covers/wideawake.jpeg" alt="wide awake album cover" />
                 <div class="links">
                     <a href="https://youtu.be/poSwKzsiSaM " target="_blank">
-                        <img class="icon" src="image/icons/youtube_extended.png" alt="youtube icon" />
+                        <img class="icon" src="media/icons/youtube_extended.png" alt="youtube icon" />
                     </a>
                     <a href="https://flintbrisbane.bandcamp.com/track/wide-awake" target="_blank">
-                        <img class="icon" src="image/icons/bandcamp_extended.png" alt="bandcamp icon" />
+                        <img class="icon" src="media/icons/bandcamp_extended.png" alt="bandcamp icon" />
                     </a>
                     <a href="https://soundcloud.com/flint-band/wide-awake/s-Ve8i5h4qEBa" target="_blank">
-                        <img class="icon" src="image/icons/soundcloud_extended.png" alt="soundcloud icon" />
+                        <img class="icon" src="media/icons/soundcloud_extended.png" alt="soundcloud icon" />
                     </a>
                 </div>
                 <div>
-                    With a hint of Arctic Monkeys, Wide Awake is a roller coaster ride through the dark and light of a high-energy rock dream.
+                    With a hint of Arctic Monkeys, <b>Wide Awake</b> is a roller coaster ride through the dark and light of a high-energy rock dream.
                 </div>
             </div>
             <div class="single">
-                <img class="icon" style="width: 20px;" src="image/icons/spotify_white.png" alt="spotify icon" /><p style="display: inline;">Spotify Links:</p>
+                <img class="icon" style="width: 20px;" src="media/icons/spotify_white.png" alt="spotify icon" /><p style="display: inline;">Spotify Links:</p>
                 <ul>
                     <li><a href="https://open.spotify.com/album/2Rueev6IPxtxwbXbuhfYwi?si=VIEyra5uSBisV22-UEpF8Q&amp;dl_branch=1">
                             Follow the Embers
@@ -82,6 +83,9 @@
     </div>
 </div>
 <style>
+    .title {
+        text-align: center;
+    }
     .desk{
         font-size: 1.5rem;
         display: flex;

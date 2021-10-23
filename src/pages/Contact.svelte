@@ -1,5 +1,10 @@
 <script>
     import {fly} from 'svelte/transition';
+
+    const images = [
+        "https://c.tenor.com/KrJkZHDrwxwAAAAC/smoke-signal.gif",
+        "media/smokesignals.png"
+    ]
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}" class="container">
@@ -15,7 +20,7 @@
             +61 0490 116 835<br>
         </p>
         <div class="title">Smoke signals:</div><br>
-        <img src="image/smokesignals.png" alt="smoke signals" />
+        <img src="{images[0]}" alt="smoke signals" />
     </div>
 </div>
 
@@ -31,6 +36,6 @@
         font-weight: normal;
     }
     img{
-        width: 100%;
+        width: 50%;
     }
 </style>
