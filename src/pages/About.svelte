@@ -80,7 +80,7 @@
     }
     .mobile{
         font-size: 2rem;    
-        text-align: center;
+        text-align: left;
         padding: 20px;
     }
     .content{

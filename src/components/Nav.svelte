@@ -67,11 +67,13 @@
         color: black;
         font-weight: bold;
         font-size: 2rem;
-        position: relative;    
+        position: relative;   
+        opacity: 1; 
     }
     .menu-btn{
         display: flex;
-        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-end;
         box-shadow: 0px 10px 20px black;
         text-shadow: 2px 2px 2px grey;
         cursor: pointer;
@@ -81,17 +83,29 @@
         font-size: 2rem;
         margin: 30px;
         padding-right: 20px;
+        position: fixed;
+        width: 80%;
     }
     .menu{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        position: fixed;
+        margin: auto;
+        background: rgba(255,255,255,.7);
+        text-shadow: 3px 3px 2px grey;
+        padding: 30px;
+        top: 81px;
+        right: 40px;
+        z-index: 1;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0px 10px 20px black;
     }
     .header{
         width: 90vw;
         height: 50px;
         box-shadow: 0px 10px 50px black;
-        margin-bottom: 20px;
         padding: 10px;
         margin-left: auto;
         margin-right: auto;

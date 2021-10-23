@@ -22,13 +22,14 @@
         position: fixed;
         left: 0;
         top: 0;
-        z-index: 2;
-        
+        z-index: 3;
     }
     @media screen and (max-width: 450px) {
         .logo {
             width: 45%;
             top: 0%;
+            filter: drop-shadow(2px 3px 3px rgb(53, 75, 71));
+            z-index: 3;
         }
     }
 </style>

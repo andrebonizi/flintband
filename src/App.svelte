@@ -58,6 +58,13 @@
 		border-radius: 20px;
 		background-color: rgba(255,255,255,.5);
 		width: 100%;
-		margin-bottom: 100px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	@media (max-width: 500px) {
+		.container {
+			margin-top: 100px;
+		}
 	}
 </style>

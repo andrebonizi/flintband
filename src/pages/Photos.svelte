@@ -84,8 +84,8 @@
         left: 12px;
         width: 50px;
         height: 50px;
-        border-left: 5px solid black;
-        border-bottom: 5px solid black;
+        border-left: 5px solid white;
+        border-bottom: 5px solid white;
         transform: rotateZ(45deg);
         box-shadow: -5px 5px 5px black;
     }
@@ -93,8 +93,8 @@
         right: 12px;
         width: 50px;
         height: 50px;
-        border-right: 5px solid black;
-        border-bottom: 5px solid black;
+        border-right: 5px solid white;
+        border-bottom: 5px solid white;
         transform: rotateZ(-45deg);
         box-shadow: 5px 5px 5px black;
     }

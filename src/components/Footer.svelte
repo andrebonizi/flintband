@@ -39,8 +39,8 @@
         align-items: center;
     }
     .icon{
-        width: 30px;
-        padding: 10px;
+        width: 22px;
+        padding: 8px;
     }
     @media screen and (max-width: 400px){
         .container{
