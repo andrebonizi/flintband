@@ -15,6 +15,7 @@
 		{ link: "videos", text: "Videos"},
 		{ link: "contact", text: "Contact"},
 		{ link: "press", text: "Press/Airplay"},
+		{ link: "tour", text: "Tourdates"},
 	];
 
 	let mobile = window.matchMedia("(orientation: portrait)").matches ? true : false;
