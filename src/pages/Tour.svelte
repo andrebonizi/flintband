@@ -2,21 +2,11 @@
     import { fly } from 'svelte/transition';
 
     let dates = [
-        { 
-            type: "Heat 5 of the Battle of the Bands",
-            city: "Fortitude Valley",
-            local: "Brightside",
-            date: "Wednesday, Dec. 15th",
-            picture: "/media/tour/Battle of the Bands Queensport.png",
-            link: "https://www.facebook.com/events/305224324599605/?ref=newsfeed",
-        },
         {
-            type: "Right Up Santa’s Pole",
-            city: "Fortitude Valley",
-            local: "O'Skulligans",
-            date: "Thursday, Dec. 16th",
-            picture: "/media/tour/Poster Dec 16.jpg",
-            link: "https://www.eventbrite.com.au/e/right-up-santas-pole-with-the-subject-to-change-flint-and-dead-dirty-dinos-tickets-216590507037",
+            type: "Ric's Cafe! Jam in Jan",
+            local: "Ric's Cafe -Bar",
+            date: "Thursday, Jan. 13th - 7:30pm",
+            picture: "/media/tour/Ric's Jan 13.jpg",
         },
         {
             type: "Battle of the Bands, sponsored by Bundaberg rum",
@@ -26,6 +16,24 @@
             picture: "/media/tour/Battle of the Bands Queensport.png",
             link: "https://www.facebook.com/qptavern",
         },
+        {
+            type: "Right Up Santa’s Pole",
+            city: "Fortitude Valley",
+            local: "O'Skulligans",
+            date: "Thursday, Dec. 16th",
+            picture: "/media/tour/Poster Dec 16.jpg",
+            link: "https://www.eventbrite.com.au/e/right-up-santas-pole-with-the-subject-to-change-flint-and-dead-dirty-dinos-tickets-216590507037",
+        },
+        { 
+            type: "Heat 5 of the Battle of the Bands",
+            city: "Fortitude Valley",
+            local: "Brightside",
+            date: "Wednesday, Dec. 15th",
+            picture: "/media/tour/Battle of the Bands Queensport.png",
+            link: "https://www.facebook.com/events/305224324599605/?ref=newsfeed",
+        },
+        
+        
     ]
 </script>
 
@@ -35,16 +43,16 @@
     {#each dates as date}
     <hr/>
     <div class="content">
-        <b>{date.type}</b>
+        <b>{date.type? date.type : ''}</b>
         <div>
             <div class="image">
-                <a href="{date.link}" target="_blank">
+                <a href="{date.link? date.link : ''}" target="_blank">
                     <img src={date.picture} alt="flyer"/>
                 </a>
             </div>
             <div class="info">
                 <p class="date">{date.date} </p>
-                <p> at {date.local} in {date.city}</p>
+                <p> at {date.local} {date.city? ' - '+date.city : ''}</p>
             </div>
         </div>
     </div>
