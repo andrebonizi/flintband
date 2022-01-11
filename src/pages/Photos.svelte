@@ -5,9 +5,9 @@
 
     let path = "media/photos/";
     let photos = [
-        "Soundgarden 1.jpg", "Soundgarden 2.jpg", "Soundgarden 3.jpg", "Soundgarden 4.jpg",
-        "Soundgarden 5.jpg", "Soundgarden 6.jpg", "Soundgarden 7.jpg", "Soundgarden 8.jpg", 
-        "Soundgarden 9.jpg", "Soundgarden 10.jpg"
+        "16.jpg", "17.jpg", "18.jpg", "19.jpg",
+        "20.jpg", "21.jpg", "22.jpg", "23.jpg", 
+        "24.jpg", "25.jpg", "26.jpg", "27.jpg"
     ];
     $: left = 0;
 

@@ -29,7 +29,7 @@
             city: "Fortitude Valley",
             local: "Brightside",
             date: "Wednesday, Dec. 15th",
-            picture: "/media/tour/Battle of the Bands Queensport.png",
+            picture: "/media/tour/Heat 5 Brightside.png",
             link: "https://www.facebook.com/events/305224324599605/?ref=newsfeed",
         },
         
