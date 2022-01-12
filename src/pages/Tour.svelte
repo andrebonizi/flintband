@@ -88,6 +88,6 @@
         font-size: 4rem;
     }
     img {
-        width: 300px;
+        width: 100%;
     }
 </style>
