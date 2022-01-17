@@ -15,10 +15,7 @@
         fruit of their efforts is (will be) the band’s debut EP, a five-song compilation of rock
         music with an edge.
         <br><br>
-
-        <div class="flint">Flint.</div> has a new drummer - Luke Hetherton. 
-        <br>Luke joined in August 2021.
-        <br>Gigs started up again, and <div class="flint">Flint.</div>
+        Gigs started up again, and <div class="flint">Flint.</div>
         is playing at several bars and pubs in southeast Queensland. 
         Follow our social media platforms for dates. 
         <br><br>

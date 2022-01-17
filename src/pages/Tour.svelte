@@ -38,7 +38,7 @@
 </script>
 
 <div in:fly="{{ x: 200, duration: 2000 }}" class="container">
-    <div class="title"><p class="flint">Flint.</p> are playing three gigs in December!</div>
+    <div class="title"> Check out next gigs! <p class="flint">Flint.</p> are playing!</div>
     <hr/>
     {#each dates as date}
     <hr/>
