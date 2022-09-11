@@ -1,17 +1,17 @@
 <script>
     import { Link } from "svelte-routing";
     import { slide } from 'svelte/transition';
-    
+
     export let links;
     export let mobile;
-    
+
     let active = false;
 
 </script>
 
 <svelte:head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
 </svelte:head>
@@ -26,7 +26,7 @@
                         {link.text}
                     </div>
                 </Link>
-            {/each}    
+            {/each}
         </div>
     {/if}
 {:else}
@@ -41,11 +41,11 @@
         {/each}
     </div>
 {/if}
-    
+
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
-    
+
     @font-face {
         font-family: 'Mistral';
         font-style: normal;
@@ -67,8 +67,8 @@
         color: black;
         font-weight: bold;
         font-size: 2rem;
-        position: relative;   
-        opacity: 1; 
+        position: relative;
+        opacity: 1;
     }
     .menu-btn{
         display: flex;
