@@ -7,12 +7,27 @@
 <div in:fly="{{ x: 200, duration: 2000 }}" class="{ mobile ? "mobile": "desk"}">
     <div class="title">About</div><hr>
     <div class="content">
-        <div class="flint">Flint.</div> began as a desire to create a sound that is not obvious, but which traverses several realms of rock. Odd tunings, unexpected chord progressions, peculiar percussion are blended carefully with lyrical musings that take listeners on a roller coaster ride of moods, feelings and ideas. At one moment, a listener may hear something remotely familiar; however, before they can digest the sound, it is transformed into something unforeseen, or was it?
+        <div class="flint">Flint.</div> began as a desire to create a sound that is not obvious, but which traverses several
+        realms of rock. Odd tunings, unexpected chord progressions, peculiar percussion are blended carefully with lyrical
+        musings that take listeners on a roller coaster ride of moods, feelings and ideas. At one moment, a listener may hear
+        something remotely familiar; however, before they can digest the sound, it is transformed into something unforeseen,
+        or was it?
         <br><br>
-        Before getting <div class="flint">Flint.</div> up and running, the two songwriters, Peter Jenner and Tony Rosenberg, had played in a covers band in Brisbane, Australia. “Playing the pub scene in Brisbane put us together in a great experience for performance,” explains Tony. “But as for creating music, it was less than what I was looking for.” Peter was playing rhythm guitar in the band when they joined forces, quit the covers thing, and went into the studio to write their own material.
+        Before getting <div class="flint">Flint.</div> up and running, the two songwriters, Peter Jenner and Tony Rosenberg,
+        had played in a covers band in Brisbane, Australia. “Playing the pub scene in Brisbane put us together in a great
+        experience for performance,” explains Tony. “But as for creating music, it was less than what I was looking for.”
+        Peter was playing rhythm guitar in the band when they joined forces, quit the covers thing, and went into the studio
+        to write their own material.
         <br><br>
-        The band’s debut EP (2021 – Follow the Embers), a five-song compilation with a rock sound with an edge. Our peculiarity, says Peter, was in the odd guitar tunings. “In an attempt to stay away from the obvious, we have been messing around with alternate tunings for the guitar. It opened up a world of opportunity in terms of experimentation.” This was born from the idea of mixing influences but, at the same time, trying to avoid sounding like other bands.
-        Armed with a new drummer, <div class="flint">Flint.</div> is set to release a flurry of new singles at the end of 2022, beginning with Beautifully Imperfect, produced, mixed and mastered by David Richards (Green Day, Lady Gaga, Radiators, The Choir Boys and many more). The ever-evolving writing process has led to songs with strong messages and peculiar blends of dynamics.
+        The band’s debut EP (2021 – Follow the Embers), a five-song compilation with a rock sound with an edge.
+        Our peculiarity, says Peter, was in the odd guitar tunings. “In an attempt to stay away from the obvious,
+        we have been messing around with alternate tunings for the guitar. It opened up a world of opportunity in terms of
+        experimentation.” This was born from the idea of mixing influences but, at the same time, trying to avoid sounding
+        like other bands.
+        Armed with a new drummer, <div class="flint">Flint.</div> is set to release a flurry of new singles at the end of
+        2022, beginning with Beautifully Imperfect, produced, mixed and mastered by David Richards (Green Day, Lady Gaga,
+        Radiators, The Choir Boys and many more). The ever-evolving writing process has led to songs with strong messages
+        and peculiar blends of dynamics.
         <br><br>
         Four more singles are set for release over the summer of 2022, moving into the early months of 2023.
     </div>
